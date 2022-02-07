@@ -1,0 +1,24 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.main-image {
+    height: 50vh;
+    margin-bottom: 2rem;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#current {
+    height: 100%;
+    object-fit: cover;
+}
